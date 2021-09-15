@@ -4,11 +4,11 @@ int main ()
 {
     int array[] = {4, 2, 1, 9, 5};
 
-    int i = 0;
+    int i = 4;
 
-    while (i < 5)
+    while (i >= 0)
     {
         std::cout << array[i] << std::endl;
-        i += 1;
+        i -= 1;
     }
 }
