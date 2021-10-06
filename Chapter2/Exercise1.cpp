@@ -1,7 +1,10 @@
 class vector3d
 {
+public :
+    using var_type = int;
+
 private :
-    int x;
-    decltype(x) y;
-    decltype(x) z;
+    var_type x;
+    var_type y;
+    var_type z;
 };
