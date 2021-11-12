@@ -1,0 +1,13 @@
+実行結果
+$ c++ -c -o main.o main.cpp
+$ cc -c -o add_c.o add_c.c
+$ c++ -o a.out main.o add_c.o
+Undefined symbols for architecture x86_64:
+  "add_c(int, int)", referenced from:
+      _main in main.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+add_cはmainで宣言されているが、リンカー無しでc言語の関数を
+参照できないのでUndefinedのエラーが出る。
