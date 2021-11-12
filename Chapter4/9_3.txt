@@ -1,0 +1,7 @@
+削除したいマクロの名前をmacroとする。
+defined(macro)が1ならマクロが定義されているので消す。
+具体的には以下のように書けば良い。
+
+#if defined(macro)==1
+    #undef macro
+#endif
