@@ -4,7 +4,7 @@
 int main ()
 {
     int file_size = 15;
-    std::string file_name = "sample.bin";
+    std::string file_name = "sample_binary.bin";
 
     std::ofstream out{file_name, std::ios::binary};
     for (int i = 0; i < file_size; i++)
