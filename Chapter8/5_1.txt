@@ -1,0 +1,4 @@
+std::fstreamクラス
+
+入力用のstd::ifstreamクラスと
+出力用のstd::ofstreamクラスを継承している
