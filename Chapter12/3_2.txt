@@ -1,0 +1,4 @@
+進めたいイテレーターをiterとすると、以下のどちらか。
+
+std::advance(iter, 3);
+iter = std::next(iter, 3);
