@@ -1,0 +1,2 @@
+RunTime Type Information　の略
+実行時にオブジェクトの型を調べる機能
